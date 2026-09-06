@@ -1,2 +1,2 @@
 # STADIOEquities
-Repository for StadioEquities 
+STADIOEquities - Capstone Project (CAP 182)
