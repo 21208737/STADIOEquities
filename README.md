@@ -1,2 +1,2 @@
-# STADIOEquities
-STADIOEquities - Capstone Project (CAP 182)
+# STADIOEquities - Capstone Project (CAP 182)
+
