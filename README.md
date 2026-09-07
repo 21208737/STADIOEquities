@@ -45,7 +45,7 @@ In the end, the project should respond to: Which observable client actions and 
 |  RAAIDD CATEGORY  |  Project specific entry  |
 |  ---------------  |  ----------------------  |
 |  Risks  |  1. There may be variations in the activation and dormancy outcome labels across time. 
-2. App/web, funding, trading, marketing, and support systems may not consistently link client identities. 
-3. If events that happen after the prediction point are inadvertently included, behavioural data may contain leakage. 
-4. Inexperienced or specific client groups may be disproportionately flagged by the model, resulting in an inappropriate intervention experience. 
-5. If STADIOEquities modifies onboarding, products, or price, past behaviour might not accurately reflect future conduct.  |
+          |  2. App/web, funding, trading, marketing, and support systems may not consistently link client identities. 
+          |  3. If events that happen after the prediction point are inadvertently included, behavioural data may contain leakage. 
+          |  4. Inexperienced or specific client groups may be disproportionately flagged by the model, resulting in an inappropriate   intervention experience. 
+          |  5. If STADIOEquities modifies onboarding, products, or price, past behaviour might not accurately reflect future conduct.  |
