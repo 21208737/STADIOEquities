@@ -31,3 +31,7 @@ Because STADIOEquities must pay an average of R180 to obtain an account, which i
 The data science challenge is to create a prediction model that uses information known before to the outcome to estimate the probability that a single registered or funded customer will fail to activate or become dormant during a specified future period. STADIOEquities should be able to detect high-risk clients early and prioritise the right interventions thanks to the resulting predictions.
 
 In the end, the project should respond to: Which observable client actions and traits are most predictive of future dormancy or activation failure, and can these signals be utilised to precisely identify clients who need proactive intervention?
+
+# Repository Structure
+
+![image alt](https://github.com/21208737/STADIOEquities/blob/54454e1a7983a718fe64caa529716f0649f7347b/Repository%20structure.pnghttps://github.com/21208737/STADIOEquities/blob/54454e1a7983a718fe64caa529716f0649f7347b/Repository%20structure.png)
