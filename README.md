@@ -40,4 +40,8 @@ In the end, the project should respond to: Which observable client actions and 
 
 ![image](https://github.com/21208737/STADIOEquities/blob/488ae8c37e882a1670e7d2f00aa381fb0689dd16/Artefact.png)
 
+# RAAIDD LOG
 
+|  RAAIDD CATEGORY  |  Project specific entry  |
+|  ---------------  |  ----------------------  |
+|  Risks  |  
