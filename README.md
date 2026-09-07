@@ -38,6 +38,6 @@ In the end, the project should respond to: Which observable client actions and 
 
 # Repository Artefact Guide
 
-![image](https://github.com/21208737/STADIOEquities/blob/9729a4205f9066bff0af4d34e72cecb169eb21b1/Artefact%20Guide.jpeg)
+![image](https://github.com/21208737/STADIOEquities/blob/488ae8c37e882a1670e7d2f00aa381fb0689dd16/Artefact.png)
 
 
