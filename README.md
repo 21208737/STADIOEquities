@@ -35,3 +35,17 @@ In the end, the project should respond to: Which observable client actions and 
 # Repository Structure
 
 ![image](https://github.com/21208737/STADIOEquities/blob/main/Repository%20structure.jpeg?raw=true)
+
+# Repository Artefact Guide
+
+Required artefact	Repository location	Purpose
+Datasets	datasets/	Raw and processed client data
+Models	models/	Trained models and evaluation artefacts
+Experimental setup	experimental_setup/	Notebooks, configuration and experiment design
+Experimental results	Experimental_results/	Results, tables and figures
+Statistical helper and comparison scripts	scripts/statistical_helpers/	Statistical analysis and model comparisons
+Visualisation scripts	scripts/visualisation/	Reusable visualisation code
+Data request	docs/	Client-facing data specification
+<img width="468" height="218" alt="image" src="https://github.com/user-attachments/assets/a70f0861-1240-4693-9141-144ac8b25d1e" />
+
+
