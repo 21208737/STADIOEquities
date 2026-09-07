@@ -42,10 +42,33 @@ In the end, the project should respond to: Which observable client actions and 
 
 # RAAIDD LOG
 
-|  RAAIDD CATEGORY  |  Project specific entry  |
-|  ---------------  |  ----------------------  |
-|  Risks  |  1. There may be variations in the activation and dormancy outcome labels across time.          |
-          |  2. App/web, funding, trading, marketing, and support systems may not consistently link client identities. 
-          |  3. If events that happen after the prediction point are inadvertently included, behavioural data may contain leakage. 
-          |  4. Inexperienced or specific client groups may be disproportionately flagged by the model, resulting in an inappropriate   intervention experience. 
-          |  5. If STADIOEquities modifies onboarding, products, or price, past behaviour might not accurately reflect future conduct.  |
+|  RAAIDD CATEGORY  |  Project specific entry   |
+|  ---------------  |  ----------------------   |
+|  Risks            |1. The outcome labels for activation and dormancy may be inconsistent across historical periods.
+|                   |2. App/web, funding, trading, marketing, and support systems may not consistently link client identities. 
+|                   |3. If events that happen after the prediction point are inadvertently included, behavioural data may contain leakage. 
+|                   |4. Inexperienced or specific client groups may be disproportionately flagged by the model, resulting in an inappropriate intervention experience. 
+|                   |5. If STADIOEquities modifies onboarding, products, or price, past behaviour might not accurately reflect future conduct.
+|                   |                                                                                                    |
+|  Actions          |1. Before modelling, explicitly define activation and dormancy with business stakeholders. |
+|                   |2. Examine each requested data source for completeness, consistency, and join-ability. |
+|                   |3. Make a time-based modelling dataset that uses only data that was accessible prior to the prediction point. |
+|                   |4. Conduct exploratory analysis and look into the behavioural cues related to dormancy and activation. |
+|                   |5. Develop and evaluate appropriate baseline and prediction models. |
+|                   |6. Assess business utility, subgroup behaviour, calibration, and predictive performance.         |
+|                   |                                                                                                    |
+|  Assumptions      |1. Historical client-level data with a reliable pseudonymous identification can be obtained via STADIOEquities. |
+|                   |2. Account and financing data are a reliable source of historical activation and dormancy results. |
+|                   |3. There are enough instances of activation and dormancy in the four to six years of data that are now accessible to train and assess a model. |
+|                   |4. There is enough information in the behavioural signals recorded prior to activation/dormancy to enable prediction. |
+|                   |5. Without requiring the model to make independent judgements regarding a client's financial appropriateness, STADIOEquities can use model scores to prioritise interventions.          |
+|                   |                                                                                          |
+|  Issues           |The information pack specifies the relevant data sources but does not provide a single standard definition for the modelling target, which is the primary known problem at the beginning of the project. Before model development starts, this needs to be settled with the client.          |
+|                   |                                                            |
+|  Decisions        |Instead of trying to address all five STADIOEquities 2030 priorities at once, the initiative will first concentrate on activation and six-month dormancy prediction. This offers a targeted issue with quantifiable results and a direct connection to the company's dormancy problem and activation gap.          |
+|                   |                                        |
+|  Dependencies     |1. Before labels are made, target definitions must be agreed upon. |
+|                   |2. Before joining various data sources, stable client identities are needed. |
+|                   |3. Prior to feature engineering, data-quality checks must be finished. |
+|                   |4. Accurate events are necessary for a time-based train/validation/test split. |
+         
