@@ -34,4 +34,4 @@ In the end, the project should respond to: Which observable client actions and 
 
 # Repository Structure
 
-![image alt](https://github.com/21208737/STADIOEquities/blob/54454e1a7983a718fe64caa529716f0649f7347b/Repository%20structure.pnghttps://github.com/21208737/STADIOEquities/blob/54454e1a7983a718fe64caa529716f0649f7347b/Repository%20structure.png)
+
