@@ -45,7 +45,7 @@ predictive modelling implementation for STADIOEquities.
 
 Implementation:
 
-[01_Preprocessing.ipynb](notebooks/01_Preprocessing.ipynb)
+[01_Preprocessing.ipynb](experimental-setup/notebooks/01_Preprocessing.ipynb)
 
 ### Feature Engineering
 
@@ -53,7 +53,7 @@ Implementation:
 
 Implementation:
 
-[02_FeatureEngineering.ipynb](notebooks/02_FeatureEngineering.ipynb)
+[02_FeatureEngineering.ipynb](experimental-setup/notebooks/02_FeatureEngineering.ipynb)
 
 ### Model 1
 
@@ -61,7 +61,7 @@ Implementation:
 
 Implementation:
 
-[03_Model1.ipynb](notebooks/03_Model1.ipynb)
+[03_Model1.ipynb](experimental-setup/notebooks/03_Model1.ipynb)
 
 ### Model 2
 
@@ -69,7 +69,7 @@ Implementation:
 
 Implementation:
 
-[04_Model2.ipynb](notebooks/04_Model2.ipynb)
+[04_Model2.ipynb](experimental-setup/notebooks/04_Model2.ipynb)
 
 ## Execution Order
 
