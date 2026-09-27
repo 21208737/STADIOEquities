@@ -36,6 +36,66 @@ In the end, the project should respond to: Which observable client actions and 
 
 ![image](https://github.com/21208737/STADIOEquities/blob/main/Repository%20structure.jpeg?raw=true)
 
+The following contains the preprocessing, feature engineering and
+predictive modelling implementation for STADIOEquities.
+
+### Data Preprocessing
+
+[Preprocessing Documentation](Preprocessing.MD)
+
+Implementation:
+
+[01_Preprocessing.ipynb](notebooks/01_Preprocessing.ipynb)
+
+### Feature Engineering
+
+[Feature Engineering Documentation](FeatureEngineering.MD)
+
+Implementation:
+
+[02_FeatureEngineering.ipynb](notebooks/02_FeatureEngineering.ipynb)
+
+### Model 1
+
+[Model 1 Documentation](Model1.MD)
+
+Implementation:
+
+[03_Model1.ipynb](notebooks/03_Model1.ipynb)
+
+### Model 2
+
+[Model 2 Documentation](Model2.MD)
+
+Implementation:
+
+[04_Model2.ipynb](notebooks/04_Model2.ipynb)
+
+## Execution Order
+
+Run the notebooks in the following order:
+
+1. '01_Preprocessing.ipynb'
+2. '02_FeatureEngineering.ipynb'
+3. '03_Model1.ipynb'
+4. '04_Model2.ipynb'
+
+## Dataset
+
+The project uses:
+
+'Customer-Churn-Records.csv'
+
+Target variable:
+
+'Exited'
+
+## Requirements
+
+Install the packages listed in:
+
+'requirements'
+
 # Repository Artefact Guide
 
 ![image](https://github.com/21208737/STADIOEquities/blob/488ae8c37e882a1670e7d2f00aa381fb0689dd16/Artefact.png)
