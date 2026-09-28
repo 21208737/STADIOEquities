@@ -1,1 +1,11 @@
+This folder contains configuration information used by the STADIOEquities
+data science project.
 
+The project is developed using Jupyter Notebook. Configuration information
+may include:
+
+- Dataset file paths
+- Output folder paths
+- Random state values
+- Model parameters
+- Data-processing settings
