@@ -100,6 +100,14 @@ Install the packages listed in:
 
 [Model_1_Performance](Model1Performance.MD)
 
+## Performance of Model 2: Random Forest
+
+[Model_2_Performance](Model2Performance.MD)
+
+## Comparison of Model 1 and Model 2
+
+[Comparison](Comparison.MD)
+
 # Repository Artefact Guide
 
 ![image](https://github.com/21208737/STADIOEquities/blob/488ae8c37e882a1670e7d2f00aa381fb0689dd16/Artefact.png)
