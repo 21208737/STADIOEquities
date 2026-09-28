@@ -96,6 +96,10 @@ Install the packages listed in:
 
 'requirements.txt'
 
+## Performance of Model 1: Logistic Regression
+
+
+
 # Repository Artefact Guide
 
 ![image](https://github.com/21208737/STADIOEquities/blob/488ae8c37e882a1670e7d2f00aa381fb0689dd16/Artefact.png)
