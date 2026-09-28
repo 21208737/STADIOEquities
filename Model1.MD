@@ -15,7 +15,7 @@ Logistic Regression was selected as Model 1 because it is a supervised classific
 
 The implementation of Model 1 is contained in:
 
-`notebooks/03_Model1.ipynb`
+https://github.com/21208737/STADIOEquities/blob/49cd2c3f4390b75f6bf71eed548aec2145fe4f45/experimental-setup/notebooks/03_Model1.ipynb
 
 To run the model, open the notebook in JupyterLab and execute the cells sequentially.
 
@@ -83,7 +83,7 @@ Model1Performance.MD
 - Ensure the Bank Customer Churn Dataset is available in the project dataset folder.
 
 Open:
-notebooks/03_Model1.ipynb
+https://github.com/21208737/STADIOEquities/blob/49cd2c3f4390b75f6bf71eed548aec2145fe4f45/experimental-setup/notebooks/03_Model1.ipynb
 
 Run the notebook cells sequentially.
 Review the generated predictions and model outputs.
