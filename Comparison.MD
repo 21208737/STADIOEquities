@@ -89,6 +89,7 @@ auc_model1 = roc_auc_score(
     y_prob_logistic1
 )
 
+
 The Model 2 ROC-AUC is calculated using:
 
 y_prob_rf2 = model2.predict_proba(X_test)[:, 1]
@@ -105,3 +106,41 @@ auc_model2 = roc_auc_score(
 | Recall	| 1.00 |	1.00 |
 | F1-score	| 1.00 |	1.00 |
 | ROC-AUC	 | 0.9992 |	0.5067 |
+
+ROC-AUC values should not be inferred from the classification report because the classification report is based on the final class predictions, whereas ROC-AUC uses the probability scores.
+
+## 7. Probability-Based Comparison
+
+The two models were also compared using their predicted probabilities.
+A non-zero probability difference would demonstrate that the models assign different probability values even though the 0.5 threshold produces the same class predictions.
+
+However, this were the results of the Probability-Based Comparison: 
+
+Mean probability difference: 0.7843283601959599
+Maximum probability difference: 0.9999831331557908
+
+## 8. ROC Curve
+A combined ROC curve was produced. The visual comparison allowed the probability-based discrimination of the two models to be examined independently of the 0.5 classification threshold.
+
+## 9. Statistical and Metric-Based Comparison
+
+The available classification results show that the two models have identical performance when evaluated using the selected 0.5 threshold.
+Both models:
+
+- achieved 99.85% accuracy;
+- correctly classified 1,997 of 2,000 observations;
+- produced 1 false positive;
+- produced 2 false negatives;
+- produced identical precision values;
+- produced identical recall values;
+- produced identical F1-scores.
+
+Therefore, the classification metrics alone do not distinguish the two models on this test set.
+The probability-based measures provide an additional level of comparison. ROC-AUC will only be reported for both models once the probability calculations have been executed and are available for analysis.
+
+## 10. Conclusion
+
+Using a 0.5 classification threshold, the examination demonstrates that Random Forest and Logistic Regression produced identical hard-class predictions on the test set. As a result, their threshold-dependent classification metrics and confusion matrices are the same.
+On the other hand, equal probability estimations do not follow from identical forecasts. 
+
+Even if the models generate the same binary predictions, they could give the same observations different probabilities.Because of this, the final comparison takes into account both the probability-based ROC-AUC values and the threshold-dependent classification metrics. 
