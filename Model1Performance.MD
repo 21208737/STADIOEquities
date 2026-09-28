@@ -97,6 +97,7 @@ auc_model1 = roc_auc_score(
 )
 
 print("Model 1 ROC-AUC:", auc_model1)
+
 Model 1 ROC-AUC: 0.9992425362104641
 
 ## 8. Conclusion
