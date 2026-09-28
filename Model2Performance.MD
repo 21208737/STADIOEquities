@@ -41,3 +41,19 @@ The Random Forest model produced the following confusion matrix:
 [[1591    1]
  [   2  406]]
 
+The matrix can be interpreted as follows:
+
+|           |Predicted 0  | Predicted 1 |
+|-----------| ------------| ------------|
+|Actual 0	  | 1,591	      | 1           |  
+|Actual 1	  | 2	          | 406         |
+
+Therefore:
+True Negatives (TN) = 1,591
+False Positives (FP) = 1
+False Negatives (FN) = 2
+True Positives (TP) = 406
+
+The model correctly classified: 1,591 + 406 = 1,997 of the 2,000 test observations.
+The resulting accuracy calculated from the confusion matrix is: 99.85%
+
