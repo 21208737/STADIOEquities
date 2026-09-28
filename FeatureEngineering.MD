@@ -10,7 +10,7 @@ The feature engineering approach is informed by the banking customer-churn.
 
 The feature engineering process is contained in:
 
-`notebooks/02_FeatureEngineering.ipynb`
+https://github.com/21208737/STADIOEquities/blob/5e52ef4533792c7a07f4e13e37644c8d4d034fc6/experimental-setup/notebooks/02_FeatureEngineering.ipynb
 
 To run the process, open the notebook in JupyterLab and execute the cells sequentially.
 
@@ -44,3 +44,37 @@ df["Balance_Salary_Ratio"] = (
 df["ZeroBalance"] = (
     df["Balance"] == 0
 ).astype(int)
+
+## 4. Age Group
+
+Customers are grouped into age categories:
+
+def create_age_group(age):
+    if age < 30:
+        return "Young"
+    elif age < 45:
+        return "Middle"
+    elif age < 60:
+        return "Mature"
+    else:
+        return "Senior"
+
+df["AgeGroup"] = df["Age"].apply(create_age_group)
+
+The specific age-group boundaries are project modelling decisions.
+
+## 5. Output
+
+The notebook produces a dataset containing the original relevant predictors together with the engineered features.
+The resulting data is used by the Model 1 and Model 2 notebooks.
+
+## 6. How to Run
+
+- Ensure the required packages in requirements.txt are installed.
+- Ensure the Bank Customer Churn Dataset is available.
+
+Open:
+https://github.com/21208737/STADIOEquities/blob/5e52ef4533792c7a07f4e13e37644c8d4d034fc6/experimental-setup/notebooks/02_FeatureEngineering.ipynb
+
+Run the notebook cells sequentially.
+Use the resulting engineered dataset for the modelling notebooks
