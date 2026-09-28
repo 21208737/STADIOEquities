@@ -1,1 +1,6 @@
-
+plot_missing_values()
+plot_distribution()
+plot_confusion_matrix()
+plot_roc_curve()
+plot_feature_importance()
+plot_model_comparison()
