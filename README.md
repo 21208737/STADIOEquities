@@ -94,7 +94,7 @@ Target variable:
 
 Install the packages listed in:
 
-'requirements'
+'requirements.txt'
 
 # Repository Artefact Guide
 
