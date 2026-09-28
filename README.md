@@ -98,7 +98,7 @@ Install the packages listed in:
 
 ## Performance of Model 1: Logistic Regression
 
-
+[Model_1_Performance](Model1Performance.MD)
 
 # Repository Artefact Guide
 
