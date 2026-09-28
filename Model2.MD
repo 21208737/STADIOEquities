@@ -15,7 +15,7 @@ Random Forest was selected as Model 2 because it is a supervised classification 
 
 The implementation of Model 2 is contained in:
 
-'notebooks/04_Model2.ipynb'
+https://github.com/21208737/STADIOEquities/blob/4f8db1e1d9b614c5ce6e39bf42a30b364cc8f9cb/experimental-setup/notebooks/04_Model2.ipynb
 
 To run the model, open the notebook in JupyterLab and execute the cells sequentially.
 
