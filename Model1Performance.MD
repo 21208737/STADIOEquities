@@ -49,7 +49,6 @@ The Logistic Regression model produced the following confusion matrix:
 |           |Predicted 0  | Predicted 1 |
 |-----------| ------------| ------------|
 |Actual 0	  | 1,591	      | 1           |  
-|-----------| ------------| ------------|
 |Actual 1	  | 2	          | 406         |
 
 Therefore:
