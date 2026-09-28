@@ -66,14 +66,14 @@ The resulting accuracy calculated from the confusion matrix is:
 ## 5. Classification Report
 
 The Model 1 classification report was:
-Class 	          Precision	Recall	F1-score	Support
-0	                1.00	    1.00	  1.00	    1,592
-1	                1.00	    1.00	  1.00	    40
-
-Accuracy	                          1.00	    2,000
-
-Macro average	    1.00	    1.00	  1.00	    2,000
-Weighted average	1.00	    1.00	  1.00	    2,000
+|Class| Precision	| Recall | F1-score	| Support|
+| ----| ----------| -------| ---------| -------|
+|0	   |1.00	      |1.00	   |1.00	     |1,592
+|1	   |1.00	      |1.00	   |1.00	     |40      |
+|Accuracy|	                |1.00	     |2,000   |
+| -------| -------| -------| ---------| -------|
+|Macro average |1.00	| 1.00	|  1.00	   | 2,000  |
+|Weighted average	|1.00	| 1.00 |	1.00	 | 2,000  |
 
 The values displayed by the classification report are rounded to two decimal places. The confusion matrix provides the more precise accuracy calculation of 99.85%.
 
