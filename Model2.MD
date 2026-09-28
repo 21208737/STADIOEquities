@@ -81,7 +81,7 @@ Model2Performance.MD
 -Ensure the Bank Customer Churn Dataset is available in the project dataset folder.
 
 Open:
-notebooks/04_Model2.ipynb
+https://github.com/21208737/STADIOEquities/blob/4f8db1e1d9b614c5ce6e39bf42a30b364cc8f9cb/experimental-setup/notebooks/04_Model2.ipynb
 
 Run the notebook cells sequentially.
 Review the generated predictions and model outputs.
