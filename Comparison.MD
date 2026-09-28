@@ -25,6 +25,7 @@ How to use the notebook:
 The two models produced exactly the same confusion matrix:
 
 [[1591    1]
+
  [   2  406]]
 
 The results are summarised below.
